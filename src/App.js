@@ -4,13 +4,32 @@ import './App.css';
 
 import Wrapper from './Componants/Wrapper/Wrapper';
 import Homepage from './Containers/Home/Homepage';
-
+import { BrowserRouter as Router , Route, Switch} from 'react-router-dom'
 
 function App() {
   return (
-    <Wrapper>
-      <Homepage />
-    </Wrapper>
+
+    <div>
+      <Router>
+      <Wrapper>
+      <Switch>
+
+      <Route path="/" exact render={props => (
+        
+        <Homepage />
+        
+      
+       )} />
+
+       <Route path="/about" render={props => (
+         <h1>About</h1>
+       )} />
+       
+      </Switch>
+      </Wrapper>
+      </Router>
+    </div>
+
   );
 }
 
