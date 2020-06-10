@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1599px) and (min-width: 1200px){
+    .home-content {
+        padding: 50px 0;
+    }
+      
+    }
+    
+    .home-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        position: relative;
+        z-index: 1;
+    }
+    
+    
+    
+    .home-content {
+        text-align: center;
+        padding: 50px 80px;
+    }
+    
+    
+    
+    .home-content h1 {
+        font-size: 3.2857rem;
+        line-height: 4rem;
+        font-weight: 700;
+        font-family: Nunito,sans-serif;
+        color: #fff;
+    }
+    
+    .color-theme {
+        color: #92A1CF;
+    }
+    
+     span{
+        display: inline-block;
+    }
+    
+    .home-particle {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+    }
+    
+    .home-content p {
+        margin-top: 15px;
+        font-size: 1.25rem;
+        line-height: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    ul {
+    list-style:none;
+    }
+    
+    
+    
+    .social li {
+      display: inline;
+      margin-right: 20px;
+    }
+    
+    .social li a {
+        color: white;
+        text-decoration: none;
+        font-family: FontAwesome;
+        text-align: center;
+        margin-top: 1rem;
+        text-decoration: none !important;
+    }
+    
+    
+    .social li a:hover {
+        color: #92A1CF;
+        transition: all 0.5s ease-out;
+    }

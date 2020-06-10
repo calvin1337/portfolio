@@ -3,14 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import Wrapper from './Componants/Wrapper/Wrapper';
+import Homepage from './Containers/Home/Homepage';
 
 
 function App() {
   return (
     <Wrapper>
-      <div>
-        <h1>Home</h1>
-      </div>
+      <Homepage />
     </Wrapper>
   );
 }
