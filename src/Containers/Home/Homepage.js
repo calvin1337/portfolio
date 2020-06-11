@@ -13,10 +13,10 @@ export class Homepage extends Component {
                     <Row className="justify-content-center">
                         <Col col="12" lg="10">
                             <div className="home-content">
-                            <h1>Hi, I am <span class="color-theme">Calvin Donaldson</span>
+                            <h1>Hi, I am <span className="color-theme">Calvin Donaldson</span>
                             </h1>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore debitis aliquid, quaerat aliquam enim consectetur.</p>
-                            <ul class="social">
+                            <ul className="social">
                                 <li>
                                 <a href="/">
                                 <FontAwesomeIcon icon={faTwitter} size="3x"/>
