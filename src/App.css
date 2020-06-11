@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
 *{
     padding:0;
     margin:0;
@@ -11,4 +14,15 @@ body{
     color:#a4acc4;
     font-weight: 400;
     background-color: #10121b;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Nunito,sans-serif;
+    color: #fff;
+}
+
+a:active, a:focus, a:hover {
+    text-decoration: none;
+    outline: none;
 }

@@ -4,6 +4,7 @@ import './App.css';
 
 import Wrapper from './Componants/Wrapper/Wrapper';
 import Homepage from './Containers/Home/Homepage';
+import About from "./Containers/About/About";
 import { BrowserRouter as Router , Route, Switch} from 'react-router-dom'
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
        )} />
 
        <Route path="/about" render={props => (
-         <h1>About</h1>
+         <About />
        )} />
        
       </Switch>
