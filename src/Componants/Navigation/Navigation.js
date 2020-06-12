@@ -59,7 +59,7 @@ export class Navigation extends Component {
                     <div className="nav-inner">
                     <div className="nav-image">
                         <a href="/">
-                        <img src="https://picsum.photos/200/300" alt="Profile picture" />
+                        <img src="https://picsum.photos/200/300" alt="Profile" />
                         </a>
                     </div>
                     <ul className="nav-menu">

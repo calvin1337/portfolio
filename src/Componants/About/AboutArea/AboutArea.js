@@ -16,7 +16,7 @@ export class AboutArea extends Component {
                     <Row>
                         <Col lg="6">
                             <div className="aboutImg">
-                                <img src="https://picsum.photos/200/300" alt="Random Image" />
+                                <img src="https://picsum.photos/200/300" alt="Random" />
                             </div>
                         </Col>
                         <Col lg="6">

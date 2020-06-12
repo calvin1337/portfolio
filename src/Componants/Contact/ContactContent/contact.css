@@ -1,0 +1,31 @@
+.contact-info {
+    margin-top: -30px;
+}
+
+.contact-info-block {
+    margin-top: 30px;
+    background: #191d2b;
+    padding: 30px;
+    display: flex;
+}
+
+.contact-icon {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    flex: 0 0 70px;
+    max-width: 70px;
+    border: 1px solid #2e344e;
+    text-align: center;
+    line-height: 66px;
+    margin-right: 20px;
+}
+
+.contact-info-block h6 {
+    margin-top: -5px;  
+}
+
+h6 {
+    font-size: 1.14rem;
+    line-height: 1.857rem;
+}
