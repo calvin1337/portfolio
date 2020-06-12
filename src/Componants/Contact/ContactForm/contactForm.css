@@ -1,0 +1,47 @@
+.form-field {
+    margin-top: 30px;
+    position: relative;
+}
+
+.form-field label {
+    position: absolute;
+    left: 15px;
+    top: -13px;
+    background: #10121b;
+    -webkit-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+    pointer-events: none;
+    padding: 0 10px;
+    font-size: .94rem;
+}
+
+.form-field input, .form-field textarea {
+    border: 1px solid #2e344e;
+    font-size: 1rem;
+}
+
+input{
+  height: 50px;
+  padding: 0 15px;
+  width: 100%;
+  vertical-align: middle;
+    
+}
+
+input, textarea{
+  border: 1px solid #2e344e;
+  font-family: Nunito,sans-serif;
+  color: #a4acc4;
+    background: transparent;
+
+}
+
+textarea{    
+  padding: 10px 15px;
+    width: 100%;
+
+}
+
+.contact-area{
+padding-bottom:120px
+}

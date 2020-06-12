@@ -6,6 +6,7 @@ import Wrapper from './Componants/Wrapper/Wrapper';
 import Homepage from './Containers/Home/Homepage';
 import About from "./Containers/About/About";
 import { BrowserRouter as Router , Route, Switch} from 'react-router-dom'
+import Contact from './Containers/Contact/Contact';
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
 
        <Route path="/about" render={props => (
          <About />
+       )} />
+
+      <Route path="/contact" render={props => (
+         <Contact />
        )} />
        
       </Switch>
