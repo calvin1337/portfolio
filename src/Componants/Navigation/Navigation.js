@@ -23,6 +23,23 @@ export class Navigation extends Component {
         }
     }
 
+    componentDidMount(){
+        document.addEventListener("mousedown", this.handleClick, false )
+    }
+
+    componentWillUnmount(){
+        document.removeEventListener("mousedown", this.handleClick, false)
+    }
+
+
+    handleClick = (e) => {
+        if(this.node.contains(e.target)){
+            return;
+        } 
+
+        this.navToggle()
+    }
+
     render() {
 
         let toggle = ""
@@ -35,7 +52,7 @@ export class Navigation extends Component {
         }
 
         return (
-            <nav id="navbar" className="navSidebar">
+            <nav ref={node => this.node = node } id="navbar" className="navSidebar">
                 <button onClick={() => this.navToggle()} className="navbar-toggler">
                     <FontAwesomeIcon icon={toggle} />
                     </button>

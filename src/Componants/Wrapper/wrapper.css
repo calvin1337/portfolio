@@ -162,3 +162,7 @@
     user-select: none;
     white-space: nowrap;
 }
+
+.mt-30{
+    margin-top:30px;
+}
