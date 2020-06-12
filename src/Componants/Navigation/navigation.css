@@ -42,6 +42,12 @@ button{
 
 }
 
+@media only screen and (min-width: 992px) and (max-width:1199px){
+    .navbar-toggler{
+        display:flex;
+    }
+}
+
 @media only screen and (max-width: 767px){
     .navbar-toggler{
         display:flex;
@@ -51,12 +57,24 @@ button{
 
 @media only screen and (max-width: 991px) and (min-width: 768px){
   .navSidebar {
-    width: 250px;
+    width: 260px;
     transform: translateX(-100%)  
 }
 
+}
 
-  
+@media only screen and (min-width: 992px) and (max-width:1199px){
+    .navSidebar {
+        width: 260px;
+        transform: translateX(-100%)  
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .navSidebar {
+        width: 250px;
+        transform: translateX(-100%)  ;
+    }
 }
 
 .showNav{
