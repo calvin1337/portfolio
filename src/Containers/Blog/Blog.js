@@ -12,7 +12,7 @@ export class Blog extends Component {
                         <span>Recent Blogs</span>         
                     </div>
                     <Row className="mt-30-reverse">
-                        <BlogPost />
+                        <BlogPost postID="firstpost"/>
                     </Row>
                 </Container>
             </div>

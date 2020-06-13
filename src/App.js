@@ -8,6 +8,7 @@ import About from "./Containers/About/About";
 import { BrowserRouter as Router , Route, Switch} from 'react-router-dom'
 import Contact from './Containers/Contact/Contact';
 import Blog from './Containers/Blog/Blog';
+import BlogPost from './Containers/Blog/BlogPost';
 
 function App() {
   return (
@@ -24,18 +25,22 @@ function App() {
       
        )} />
 
-       <Route path="/about" render={props => (
+       <Route exact path="/about" render={props => (
          <About />
        )} />
 
-      <Route path="/contact" render={props => (
+      <Route exact path="/contact" render={props => (
          <Contact />
        )} />
 
-        <Route path="/blog" render={props => (
+        <Route exact path="/blog" render={props => (
          <Blog />
        )} />
        
+       <Route exact path="/blog/:id" render={props => (
+         <BlogPost />
+       )} />
+
       </Switch>
       </Wrapper>
       </Router>

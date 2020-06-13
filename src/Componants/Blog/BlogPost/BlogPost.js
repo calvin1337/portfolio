@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Col} from "react-bootstrap";
+import {Link } from "react-router-dom"
 import "./blogPost.css"
 
 export class BlogPost extends Component {
@@ -8,9 +9,9 @@ export class BlogPost extends Component {
             <Col lg="6" className="mt-30">
                 <div className="blogPost">
                      <div className="blog-img">
-                        <a href="/">
+                        <Link to={`/blog/${this.props.postID}`}>
                             <img src="https://picsum.photos/200/300" alt="" />
-                         </a>
+                         </Link>
                         <div className="blog-date">
                             <span className="date">13</span>
                              <span className="month">June</span>
@@ -18,9 +19,9 @@ export class BlogPost extends Component {
                     </div>
                     <div className="blog-content">
                     <h5>
-                        <a href="/">
+                        <Link to={`/blog/${this.props.postID}`} >
                             My First Blog Post
-                        </a>
+                        </Link>
                     </h5>
                     </div>
                 </div>
