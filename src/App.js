@@ -9,6 +9,7 @@ import { BrowserRouter as Router , Route, Switch} from 'react-router-dom'
 import Contact from './Containers/Contact/Contact';
 import Blog from './Containers/Blog/Blog';
 import BlogPost from './Containers/Blog/BlogPost';
+import Portfolio from './Containers/Portfolio/Portfolio';
 
 function App() {
   return (
@@ -39,6 +40,10 @@ function App() {
        
        <Route exact path="/blog/:id" render={props => (
          <BlogPost />
+       )} />
+
+        <Route exact path="/portfolio" render={props => (
+         <Portfolio />
        )} />
 
       </Switch>
