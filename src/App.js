@@ -7,6 +7,7 @@ import Homepage from './Containers/Home/Homepage';
 import About from "./Containers/About/About";
 import { BrowserRouter as Router , Route, Switch} from 'react-router-dom'
 import Contact from './Containers/Contact/Contact';
+import Blog from './Containers/Blog/Blog';
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
 
       <Route path="/contact" render={props => (
          <Contact />
+       )} />
+
+        <Route path="/blog" render={props => (
+         <Blog />
        )} />
        
       </Switch>

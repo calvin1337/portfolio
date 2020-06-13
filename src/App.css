@@ -26,3 +26,16 @@ a:active, a:focus, a:hover {
     text-decoration: none;
     outline: none;
 }
+
+.mt-30-reverse {
+    margin-top: -30px;
+}
+
+.mt-30{
+    margin-top:30px;
+}
+
+h5 {
+    font-size: 1.43rem;
+    line-height: 2.14rem;
+}
