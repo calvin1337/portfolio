@@ -9,12 +9,12 @@ export class ContactForm extends Component {
                 <div className="contact-form-wrapper">
                 <h4>Get In Touch</h4>
                     <form 
-            name="contact-form"
+            name="contact"
             method="POST" 
             data-netlify="true" 
             netlify-honeypot="bot-field"
             className="contact-form"
-            action="/thanks">
+            action="/contact">
                         <div className="form-field">
                              <label for="name">Enter Your Name</label>
                              <input type="text" name="name" id="contact-form-name"  />
