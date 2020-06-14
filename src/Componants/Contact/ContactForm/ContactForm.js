@@ -8,7 +8,13 @@ export class ContactForm extends Component {
             <Col lg="6">
                 <div className="contact-form-wrapper">
                 <h4>Get In Touch</h4>
-                    <form method="POST" data-netlify="true" className="contact-form">
+                    <form 
+            name="contact-form"
+            method="POST" 
+            data-netlify="true" 
+            netlify-honeypot="bot-field"
+            className="contact-form"
+            action="/thanks">
                         <div className="form-field">
                              <label for="name">Enter Your Name</label>
                              <input type="text" name="name" id="contact-form-name"  />
@@ -28,6 +34,7 @@ export class ContactForm extends Component {
                         <div className="form-field">
                             <button className="btnStyle" type="submit">Send Mail</button>
                         </div>
+                     <input type="hidden" name="form-name" value="contact" />  
                     </form>
                 </div>
             </Col>
