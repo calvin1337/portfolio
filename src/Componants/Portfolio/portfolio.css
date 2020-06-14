@@ -10,9 +10,40 @@
     margin-top: 15px;
     margin-bottom: 0;
     font-weight: 700;
+    margin-left:4px;
+
 }
 
 .portfolio-single h6 {
     color: #a4acc4;
+    margin-left:4px;
+
     margin-bottom: 0;
+}
+
+
+.portfolio-single{
+    background: #191d2b;
+        padding: 15px;
+    }
+
+
+.tag{
+    align-self: center;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 4px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    background-color: #2e344e;
+}
+
+
+.tagContainer{
+  margin-top:10px;
+  height: 40%;
+    display: flex;
 }

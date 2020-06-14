@@ -1,9 +1,5 @@
-@media only screen and (max-width: 1599px) and (min-width: 1200px){
-    .home-content {
-        padding: 50px 0;
-    }
-      
-    }
+
+
     
     .home-area {
         display: flex;
@@ -80,3 +76,45 @@
         color: #92A1CF;
         transition: all 0.5s ease-out;
     }
+
+
+    @media only screen and (max-width: 1599px) and (min-width: 1200px){
+        .home-content {
+            padding: 50px 0;
+        }
+          
+        }
+    
+        @media only screen and (max-width: 991px) and (min-width: 768px){
+           .home-content h1 {
+                font-size: 2.9857rem;
+                line-height: 3.4rem;
+            }
+    
+            .home-content {
+                padding: 50px 0;
+            }
+    
+            .home-content p {
+                font-size: 1.15rem;
+                line-height: 1.75rem;
+            }
+    
+        }
+
+    @media only screen and (max-width:767px){
+        .home-content {
+            padding: 50px 0;
+        }
+
+        .home-content h1 {
+            font-size: 2.6857rem;
+            line-height: 3.1rem;
+        }
+
+        .home-content p {
+            font-size: 1.08rem;
+            line-height: 1.55rem;
+        }
+    }
+    

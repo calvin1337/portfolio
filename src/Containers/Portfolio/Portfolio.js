@@ -5,7 +5,7 @@ import SinglePortfolio from '../../Componants/Portfolio/SinglePortfolio';
 export class Portfolio extends Component {
     render() {
         return (
-            <div className="portfolio content-section padding-bottom-130">
+            <div className="portfolio content-section padding-bottom-120">
                 <Container>
                     <div className="sectionTitle">
                         <h2>Portfolio</h2>
