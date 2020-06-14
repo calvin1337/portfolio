@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {Container, Row} from "react-bootstrap";
 import SinglePortfolio from '../../Componants/Portfolio/SinglePortfolio';
+import Clockwise from "../../images/clockwise-services.png"
 
 export class Portfolio extends Component {
     render() {
@@ -12,7 +13,8 @@ export class Portfolio extends Component {
                         <span>Portfolio</span>
                     </div>
                     <Row>
-                        <SinglePortfolio />
+                        <SinglePortfolio image={Clockwise}/>
+
                     </Row>
                 </Container>
             </div>

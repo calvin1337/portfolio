@@ -1,6 +1,6 @@
 .portfolio-img img{
-    height:255px;
-    width:350px;
+    height:300px;
+    
   }
 
   
@@ -25,6 +25,7 @@
 .portfolio-single{
     background: #191d2b;
         padding: 15px;
+        width:100% ;
     }
 
 

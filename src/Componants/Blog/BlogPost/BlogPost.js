@@ -10,7 +10,7 @@ export class BlogPost extends Component {
                 <div className="blogPost">
                      <div className="blog-img">
                         <Link to={`/blog/${this.props.postID}`}>
-                            <img src="https://picsum.photos/200/300" alt="" />
+                            <img src={this.props.image} alt="" />
                          </Link>
                         <div className="blog-date">
                             <span className="date">13</span>

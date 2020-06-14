@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {Container, Row} from "react-bootstrap";
 import BlogPost from '../../Componants/Blog/BlogPost/BlogPost';
+import Blogimage from "../../images/coffee-desktop.jpg"
+
 
 export class Blog extends Component {
     render() {
@@ -12,7 +14,7 @@ export class Blog extends Component {
                         <span>Recent Blogs</span>         
                     </div>
                     <Row className="mt-30-reverse">
-                        <BlogPost postID="firstpost"/>
+                        <BlogPost image={Blogimage} postID="firstpost"/>
                     </Row>
                 </Container>
             </div>
