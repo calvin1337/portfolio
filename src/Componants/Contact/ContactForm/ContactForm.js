@@ -8,7 +8,7 @@ export class ContactForm extends Component {
             <Col lg="6">
                 <div className="contact-form-wrapper">
                 <h4>Get In Touch</h4>
-                    <form action="#" className="contact-form">
+                    <form netlify action="#" className="contact-form">
                         <div className="form-field">
                              <label for="name">Enter Your Name</label>
                              <input type="text" name="name" id="contact-form-name"  />
