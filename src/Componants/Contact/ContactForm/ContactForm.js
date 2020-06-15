@@ -24,7 +24,7 @@ export class ContactForm extends Component {
                             <input type="text" name="email" id="contact-form-email" />
                         </div>
                         <div className="form-field">
-                            <label for="Subject">Enter Your Subject</label>
+                            <label for="subject">Enter Your Subject</label>
                             <input type="text" name="subject" id="contact-form-subject" />
                          </div>
                         <div className="form-field">
