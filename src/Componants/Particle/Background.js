@@ -40,6 +40,9 @@ export class Background extends Component {
 	        }
 	    }
 	}}
+
+	height={window.outerHeight}
+	
 		style={{
 		width: '100%',
 		height:"100vh"
