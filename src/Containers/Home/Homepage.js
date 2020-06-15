@@ -3,12 +3,15 @@ import {Container, Row, Col} from "react-bootstrap";
 import "./homepage.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import Background from '../../Componants/Particle/Background';
 
 export class Homepage extends Component {
     render() {
         return (
             <div className="home-area">
-                <div className="home-particle"></div>
+                <div className="home-particle">
+                    <Background />
+                </div>
                 <Container>
                     <Row className="justify-content-center">
                         <Col col="12" lg="10">

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Container, Row} from "react-bootstrap";
 import SinglePortfolio from '../../Componants/Portfolio/SinglePortfolio';
-import Clockwise from "../../images/clockwise-services.png"
+import Clockwise from "../../images/clockwise-services.jpg"
 
 export class Portfolio extends Component {
     render() {
