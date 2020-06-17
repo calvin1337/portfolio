@@ -21,22 +21,22 @@ export class Homepage extends Component {
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore debitis aliquid, quaerat aliquam enim consectetur.</p>
                             <ul className="social">
                                 <li>
-                                <a href="/">
+                                <a target="_blank" href="https://twitter.com/ca1vin" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faTwitter} size="3x"/>
                                 </a>
                                 </li>
                                 <li>
-                                <a href="/">
+                                <a target="_blank" href="https://instagram.com/calvindonladson" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faInstagram} size="3x"/>
                                 </a>
                                 </li>
                                 <li>
-                                <a href="/">
+                                <a target="_blank" href="https://github.com/calvin1337" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faGithub} size="3x"/>
                                 </a>
                                 </li>
                                 <li>
-                                <a href="/">
+                                <a target="_blank" href="https://www.linkedin.com/in/calvin-donaldson-1b72181a0/" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faLinkedin} size="3x"/>
                                 </a>
                                 </li>
