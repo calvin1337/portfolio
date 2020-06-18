@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import "./wrapper.css";
 import Navigation from '../Navigation/Navigation';
+import Modal from './Modal/Modal';
 
 export class Wrapper extends Component {
 
@@ -16,6 +17,7 @@ export class Wrapper extends Component {
         return (
 
             <div  className="wrapper" onClick={(e) => this.closeNav(e)}>
+                <Modal />
                 <div className="bg-lines">
                     <span></span>
                     <span></span>
