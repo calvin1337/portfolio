@@ -63,11 +63,11 @@ export class Navigation extends Component {
                         </a>
                     </div>
                     <ul className="nav-menu">
-                        <li><NavLink exact to="/">Home</NavLink></li>
-                        <li><NavLink  to="/about">About</NavLink></li>
-                        <li><NavLink  to="/portfolio">Portfolio</NavLink></li>
-                        <li><NavLink  to="/blog">Blog</NavLink></li>
-                        <li><NavLink  to="/contact">Contact</NavLink></li>
+                        <li><NavLink exact to="/" onClick={() => this.navToggle()}>Home</NavLink></li>
+                        <li><NavLink  to="/about" onClick={() => this.navToggle()}>About</NavLink></li>
+                        <li><NavLink  to="/portfolio" onClick={() => this.navToggle()}>Portfolio</NavLink></li>
+                        <li><NavLink  to="/blog" onClick={() => this.navToggle()}>Blog</NavLink></li>
+                        <li><NavLink  to="/contact" onClick={() => this.navToggle()}>Contact</NavLink></li>
                     </ul>
                     <p className="nav-copyright">© 2020 <b><a  target="_blank" href="/">Calvin Donaldson</a></b></p>
                     </div>

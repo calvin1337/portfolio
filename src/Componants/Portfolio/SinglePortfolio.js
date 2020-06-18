@@ -17,7 +17,7 @@ export class SinglePortfolio extends Component {
                         <h5>Clockwise Technologies</h5>
 
                         </a>
-                        <h6>Lorem ipsum dolor sit amet.</h6>
+                        <h6>This was a freelance project I did for an engineering firm. It was build using react.js. </h6>
                         <div className="tagContainer">
                             <span className="tag">Javascript</span>
                             <span className="tag">HTML</span>

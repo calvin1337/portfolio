@@ -18,7 +18,7 @@ export class Homepage extends Component {
                             <div className="home-content">
                             <h1>Hi, I am <span className="color-theme">Calvin Donaldson</span>
                             </h1>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore debitis aliquid, quaerat aliquam enim consectetur.</p>
+                            <p>I'm a web developer from the UK. I love to create beautiful, user-friendly, high-converting websites!</p>
                             <ul className="social">
                                 <li>
                                 <a target="_blank" href="https://twitter.com/ca1vin" rel="noopener noreferrer">
