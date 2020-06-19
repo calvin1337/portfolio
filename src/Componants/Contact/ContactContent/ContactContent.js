@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faPhone} from "@fortawesome/free-solid-svg-icons";
 import "./contact.css";
 
 export class ContactContent extends Component {
@@ -11,7 +10,7 @@ export class ContactContent extends Component {
                
                     <div className="contact-info-block">
                         <span className="contact-icon">
-                        <FontAwesomeIcon icon={faPhone}/>
+                        <FontAwesomeIcon icon={this.props.icon}/>
                         </span>
                             <div className="contact-content">
                             <h6>{this.props.title}</h6>

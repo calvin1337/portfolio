@@ -10,7 +10,7 @@ export class ContactSocial extends Component {
             
             <div className="contact-info-block">
                 <span className="contact-icon">
-                        <FontAwesomeIcon icon={faPhone}/>
+                        <FontAwesomeIcon icon={this.props.icon}/>
                 </span>
                 <div className="contactSocial">
                 <h6>{this.props.title}</h6>

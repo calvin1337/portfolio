@@ -7,7 +7,7 @@ export class Social extends Component {
         return (
             <ul className="social">
                 <li>
-                    <a target="_blank" href="https://twitter.com/ca1vin" rel="noopener noreferrer">
+                    <a target="_blank" href="https://twitter.com/ca1ven" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faTwitter} size={this.props.size}/>
                     </a>
                 </li>

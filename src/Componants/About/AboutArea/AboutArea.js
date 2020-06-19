@@ -22,7 +22,7 @@ export class AboutArea extends Component {
                         </Col>
                         <Col lg="6">
                             <div className="about-content">
-                                <h3>Hey guys! My name's <span class="color-theme">Calvin Donaldson</span></h3>
+                                <h3>Hey guys! My name's <span class="color-theme">Calvin </span></h3>
 
                                 <p> 
                                      I'm a web developer from the UK.
