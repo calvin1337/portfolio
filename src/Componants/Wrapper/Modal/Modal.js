@@ -16,7 +16,7 @@ export class Modal extends Component {
         return (
             <div style={this.state.showModal === "false" ? {display:"none"} : null} className="modal">
                 <div className="modal-box">
-                    <h3>The site is a work in progress please keep in mind its not full finished</h3>
+                    <h3>The site is a work in progress please keep in mind its not fully finished</h3>
                     <div style={{textAlign:"center"}}>
                     <button onClick={() => this.closeModal()} className="btn btn-secondary">Okay</button>
                     </div>

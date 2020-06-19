@@ -5,6 +5,7 @@ import "./contact.css";
 
 export class ContactContent extends Component {
     render() {
+
         return (
             
                
@@ -14,7 +15,8 @@ export class ContactContent extends Component {
                         </span>
                             <div className="contact-content">
                             <h6>{this.props.title}</h6>
-                                <p>Lorem, ipsum.</p>
+                                <p>{this.props.info}</p>
+                                
                             </div>
                     </div>
                 

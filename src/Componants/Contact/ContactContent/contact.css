@@ -23,9 +23,15 @@
 
 .contact-info-block h6 {
     margin-top: -5px;  
+    display:block;
 }
 
 h6 {
     font-size: 1.14rem;
     line-height: 1.857rem;
+}
+
+.contactSocial {
+    display:flex;
+    flex-direction:column
 }

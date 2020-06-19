@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Container, Row, Col} from "react-bootstrap";
 import ContactForm from '../../Componants/Contact/ContactForm/ContactForm';
 import ContactContent from '../../Componants/Contact/ContactContent/ContactContent';
+import ContactSocial from '../../Componants/Contact/ContactContent/ContactSocial';
 
 export class Contact extends Component {
     render() {
@@ -16,9 +17,18 @@ export class Contact extends Component {
 
                         <Col lg="6">
                             <div className="contact-info">
-                                <ContactContent title="Phone"/>
-                                <ContactContent title="Email" />
-                                <ContactContent title="Socials" />
+                                <ContactContent 
+                                title="Phone"
+                                info="07483347204"
+                                />
+                                <ContactContent 
+                                title="Email" 
+                                info="calvindonaldson1997313@gmail.com"
+                                />
+                                <ContactSocial 
+                                title="Socials"
+                                size="2x"
+                                />
 
                             </div>
                         </Col>

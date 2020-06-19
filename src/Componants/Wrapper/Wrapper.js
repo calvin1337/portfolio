@@ -5,10 +5,7 @@ import Modal from './Modal/Modal';
 
 export class Wrapper extends Component {
 
-    closeNav = (e) => {
-        console.log(e.target)
-    }
-
+    
     
 
     render() {
@@ -16,7 +13,7 @@ export class Wrapper extends Component {
          
         return (
 
-            <div  className="wrapper" onClick={(e) => this.closeNav(e)}>
+            <div  className="wrapper" >
                 <Modal />
                 <div className="bg-lines">
                     <span></span>
