@@ -22,7 +22,7 @@ export class Social extends Component {
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://www.linkedin.com/in/calvin-donaldson-1b72181a0/" rel="noopener noreferrer">
+                    <a target="_blank" href="https://www.linkedin.com/" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faLinkedin} size={this.props.size}/>
                     </a>
                 </li>
