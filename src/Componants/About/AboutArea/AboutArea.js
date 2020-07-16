@@ -26,7 +26,7 @@ export class AboutArea extends Component {
 
                                 <p> 
                                      I'm a web developer from the UK.
-                                    Please take a moment to thumb through my projects and their associated 
+                                    Please take a moment to look through my projects and their associated 
                                     repositories. You will find well-documented, thoughtful code demonstrating 
                                     an aptitude for development and a hunger for continuous improvement.
                                     I have always been a very logical person, methodical and well organized, 

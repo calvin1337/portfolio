@@ -8,7 +8,7 @@ export class SinglePortfolio extends Component {
             <Col lg="6" md="6" col="12" className="mt-30">
                 <div class="portfolio-single">
                     <div class="portfolio-img">
-                        <a href="http://heuristic-fermat-36eb80.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://clockwise.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <img src={this.props.image} alt="Clockwise-tech" />
 
                         </a>
