@@ -31,7 +31,7 @@ export class Homepage extends Component {
                                 />
                                     <span class="cursor"></span>
                             </h1>
-                            <p>I'm a web developer from the UK. I love to create beautiful, user-friendly, high-converting websites!</p>
+                            <p>I'm a web developer from Scotland. I love to create beautiful, user-friendly, high-converting websites!</p>
                                 <Social size="3x"/>
                             </div>
                         </Col>

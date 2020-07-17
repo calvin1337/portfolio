@@ -25,7 +25,7 @@ export class AboutArea extends Component {
                                 <h3>Hey guys! My name's <span class="color-theme">Calvin </span></h3>
 
                                 <p> 
-                                     I'm a web developer from the UK.
+                                    I'm a *mostly* self-taught web developer based out of Aberdeen in Scotland.
                                     Please take a moment to look through my projects and their associated 
                                     repositories. You will find well-documented, thoughtful code demonstrating 
                                     an aptitude for development and a hunger for continuous improvement.
@@ -46,13 +46,14 @@ export class AboutArea extends Component {
                                     <b>Nationality</b>
                                     Scottish
                                 </li>
+                               
                                 <li>
-                                    <b>Lorem</b>
-                                    Lorem, ipsum.
+                                    <b>Stack</b>
+                                    Front-End
                                 </li>
                                 <li>
-                                    <b>Lorem</b>
-                                    Lorem, ipsum.
+                                    <b>JS Libery</b>
+                                    React 
                                 </li>
                                 <li>
                                     <b>Freelance</b>

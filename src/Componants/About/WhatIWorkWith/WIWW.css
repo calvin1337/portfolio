@@ -1,0 +1,17 @@
+.techContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.techContainer li {
+    display:inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.stack{
+    text-align: center;
+}
