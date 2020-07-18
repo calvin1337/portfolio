@@ -48,3 +48,31 @@
   height: 40%;
     display: flex;
 }
+
+.typeTag{
+    align-self: center;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 4px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2e344e;
+    font-size: 16px;
+    background-color: #92A1CF;
+}
+
+.typeContainer{
+    display:flex;
+    justify-content: space-between;
+}
+
+.gitLink a{
+    margin-right:5px;
+    color: #92A1CF;
+}
+
+.gitLink a:hover {
+    color: #007bff;
+    transition: all 0.5s ease-out;
+}
