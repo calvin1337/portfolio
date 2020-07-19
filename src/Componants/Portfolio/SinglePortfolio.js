@@ -31,7 +31,7 @@ export class SinglePortfolio extends Component {
                         <div className="typeContainer">
                         <span className="typeTag">{this.props.type} </span>
 
-                        <div className="gitLink">
+                        <div style={{marginTop:"10px"}}className="gitLink">
                             <a href={this.props.link} target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faLink} size="2x" />
                             </a>
