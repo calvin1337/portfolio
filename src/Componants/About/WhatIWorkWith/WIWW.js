@@ -18,7 +18,7 @@ export class WIWW extends Component {
                     <Row>
                         <Col lg="12">
 
-                        <div className="stack mt-30 ">
+                        <div className="stack  ">
                         <p>I enjoy building in my free time to learn new technologies. 
                             It's enjoyable to try out different concepts to strengthen my knowledge. 
                             

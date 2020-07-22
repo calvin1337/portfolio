@@ -10,13 +10,16 @@ import Contact from './Containers/Contact/Contact';
 import Blog from './Containers/Blog/Blog';
 import BlogPost from './Containers/Blog/BlogPost';
 import Portfolio from './Containers/Portfolio/Portfolio';
+import ScrollTop from "./Componants/Navigation/ScrollTop"
 
 function App() {
   return (
 
     <div>
       <Router>
+        <ScrollTop />
       <Wrapper>
+        
       <Switch>
 
       <Route path="/" exact render={props => (
