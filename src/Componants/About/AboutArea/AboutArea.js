@@ -49,7 +49,7 @@ export class AboutArea extends Component {
                                
                                 <li>
                                     <b>Stack</b>
-                                    Front-End
+                                    MERN
                                 </li>
                                 <li>
                                     <b>JS Libery</b>
