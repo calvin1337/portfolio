@@ -17,7 +17,7 @@ export class Portfolio extends Component {
                         <SinglePortfolio 
                         image={Clockwise}
                         title="Clockwise Technologies"
-                        disc="This was a freelance project I did for an engineering firm. It was build using react.js."
+                        disc="This was a freelance project I did for an engineering firm. It was build using React.js."
                         link="https://clockwise.netlify.app"
                         repo="https://github.com/calvin1337/portfolio"
                         type="Professional"
@@ -25,7 +25,7 @@ export class Portfolio extends Component {
                         <SinglePortfolio 
                         image={MovieApp} 
                         title="Calvin's Movie App"
-                        disc="This Was a little project I did to track and rate movies I watched during lockdown using react.js"
+                        disc="This was a little project I did to track and rate movies I watched during lockdown built using React.js. It uses firebase for storing data and TMDB API for retrieving and displaying movies."
                         link="https://calvinsmovieratings.netlify.app"
                         repo="https://github.com/calvin1337/MovieRatingApp"
                         type="Personal"
