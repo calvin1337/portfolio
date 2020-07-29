@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import AboutArea from '../../Componants/About/AboutArea/AboutArea'
-import ServicesArea from '../../Componants/About/ServicesArea/ServicesArea'
+
 import WIWW from '../../Componants/About/WhatIWorkWith/WIWW'
 
 export class About extends Component {
@@ -9,7 +9,7 @@ export class About extends Component {
             <div>
                 <AboutArea />
                 <WIWW />
-                <ServicesArea />
+                
             </div>
         )
     }
